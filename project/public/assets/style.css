@@ -1,0 +1,45 @@
+body{
+  background: #331F4C;
+  color: #A4A9B9;
+  text-decoration: none;
+  font-family: arial;
+}
+
+button{
+  border: none;
+  border-radius: 5px;
+  background-color: #e3e3e3;
+  width: 15%;
+  height: 30px;
+}
+
+#todo-table{
+  background: rgba(0,0,0,0.3);
+  width: 45%;
+  height: 80%;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+input{
+  background: #e3e3e3;
+  padding-right: 0px;
+  width: 60%;
+  height: 30px;
+}
+
+ul{
+  padding-top: 50px;
+  list-style-type: none;
+  text-align: left;
+}
+
+li:hover{
+  text-decoration: line-through;
+  cursor: pointer;
+  background: rgba(0,0,0,0.7);
+}
+
+form{
+  padding-top: 5%;
+}
